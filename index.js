@@ -137,3 +137,8 @@ cardWrapper.onscroll = function() {
     }, 2000);
 }
 
+
+
+document.getElementById("menuButton").addEventListener("click", function() {
+    document.querySelector(".navlist").classList.toggle("active");
+});
